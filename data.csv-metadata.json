@@ -1,0 +1,34 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "data.csv",
+    "tableSchema": {
+    "columns": [{
+      "titles": "date",
+      "propertyUrl": "dc:date",
+      "dc:description": "The ISO date at which an event occurred",
+      "datatype": "date"
+    },{
+      "titles": "start",
+      "propertyUrl": "obo:RO_0002537",
+      "dc:description": "The ISO event start time",
+      "datatype": "time"
+    },{
+      "titles": "end",
+      "propertyUrl": "obo:RO_0002538",
+      "dc:description": "The ISO event end time",
+      "datatype": "time"
+    },{
+      "titles": "class",
+      "dc:description": "The event classification according to the dal Maso et al. scheme",
+      "datatype": {
+          "base": "string",
+          "format": "Ia|Ib|II"
+      },
+      "valueUrl": "http://example.org/class/{class}",
+    },{
+      "virtual": true,
+      "propertyUrl": "rdf:type",
+      "valueUrl": "obo:ENVO_01001372"
+    }]
+  }
+}
