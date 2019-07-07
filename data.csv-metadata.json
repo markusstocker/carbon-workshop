@@ -24,7 +24,7 @@
           "base": "string",
           "format": "Ia|Ib|II"
       },
-      "valueUrl": "http://example.org/class/{class}",
+      "valueUrl": "http://example.org/class/{class}"
     },{
       "virtual": true,
       "propertyUrl": "rdf:type",
