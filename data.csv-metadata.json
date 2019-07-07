@@ -6,17 +6,26 @@
       "titles": "date",
       "propertyUrl": "dc:date",
       "dc:description": "The ISO date at which an event occurred",
-      "datatype": "date"
+      "datatype": {
+          "base": "date",
+          "format": "yyyy-MM-dd"
+      }
     },{
       "titles": "start",
       "propertyUrl": "obo:RO_0002537",
       "dc:description": "The ISO event start time",
-      "datatype": "time"
+      "datatype": {
+          "base": "time",
+          "format": "HH:mm"
+      }
     },{
       "titles": "end",
       "propertyUrl": "obo:RO_0002538",
       "dc:description": "The ISO event end time",
-      "datatype": "time"
+      "datatype": {
+          "base": "time",
+          "format": "HH:mm"
+      }
     },{
       "titles": "class",
       "dc:description": "The event classification according to the dal Maso et al. scheme",
