@@ -25,10 +25,6 @@
           "format": "Ia|Ib|II"
       },
       "valueUrl": "http://example.org/class/{class}"
-    },{
-      "virtual": true,
-      "propertyUrl": "rdf:type",
-      "valueUrl": "obo:ENVO_01001372"
     }]
   }
 }
