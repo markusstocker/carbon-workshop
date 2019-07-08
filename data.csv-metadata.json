@@ -35,7 +35,7 @@
               "base": "string",
               "format": "Ia|Ib|II"
           },
-          "valueUrl": "http://avaa.tdata.fi/{class}"
+          "valueUrl": "http://avaa.tdata.fi/class/{class}"
         },{
           "titles": "",  
           "virtual": true,
