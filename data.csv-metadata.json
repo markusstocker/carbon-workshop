@@ -35,6 +35,7 @@
       },
       "valueUrl": "http://example.org/class/{class}"
     },{
+      "titles": "",  
       "virtual": true,
       "propertyUrl": "rdf:type",
       "valueUrl": "obo:ENVO_01001372"
