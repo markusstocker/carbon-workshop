@@ -2,7 +2,7 @@
     "@context": "http://www.w3.org/ns/csvw",
     "url": "data.csv",
     "tableSchema": {
-        "aboutUrl": "http://example.org/about/{date}",
+        "aboutUrl": "http://avaa.tdata.fi/{date}",
         "columns": [{
           "titles": "date",
           "propertyUrl": "http://purl.org/dc/elements/1.1/date",
@@ -34,7 +34,7 @@
               "base": "string",
               "format": "Ia|Ib|II"
           },
-          "valueUrl": "http://example.org/class/{class}"
+          "valueUrl": "http://avaa.tdata.fi/{class}"
         },{
           "titles": "",  
           "virtual": true,
