@@ -4,7 +4,7 @@
     "tableSchema": {
         "aboutUrl": "http://avaa.tdata.fi/{date}",
         "columns": [{
-          "titles": "date",
+          "name": "date",
           "propertyUrl": "http://purl.obolibrary.org/obo/STATO_0000093",
           "dc:description": "The ISO date at which the event occurred",
           "datatype": {
@@ -12,7 +12,7 @@
               "format": "yyyy-MM-dd"
           }
         },{
-          "titles": "start",
+          "name": "start",
           "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002537",
           "dc:description": "The ISO event start time",
           "datatype": {
@@ -20,7 +20,7 @@
               "format": "HH:mm"
           }
         },{
-          "titles": "end",
+          "name": "end",
           "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002538",
           "dc:description": "The ISO event end time",
           "datatype": {
@@ -28,7 +28,7 @@
               "format": "HH:mm"
           }
         },{
-          "titles": "class",
+          "name": "class",
           "propertyUrl": "http://purl.obolibrary.org/obo/OBI_0000999",
           "dc:description": "The event classification according to the dal Maso et al. scheme",
           "datatype": {
@@ -37,7 +37,6 @@
           },
           "valueUrl": "http://avaa.tdata.fi/class/{class}"
         },{
-          "titles": "",  
           "virtual": true,
           "propertyUrl": "rdf:type",
           "valueUrl": "http://purl.obolibrary.org/obo/ENVO_01001372"
