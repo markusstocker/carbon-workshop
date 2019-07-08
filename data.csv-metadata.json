@@ -4,7 +4,7 @@
     "tableSchema": {
     "columns": [{
       "titles": "date",
-      "propertyUrl": "dc:date",
+      "propertyUrl": "http://purl.org/dc/elements/1.1/date",
       "dc:description": "The ISO date at which an event occurred",
       "datatype": {
           "base": "date",
@@ -12,7 +12,7 @@
       }
     },{
       "titles": "start",
-      "propertyUrl": "obo:RO_0002537",
+      "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002537",
       "dc:description": "The ISO event start time",
       "datatype": {
           "base": "time",
@@ -20,7 +20,7 @@
       }
     },{
       "titles": "end",
-      "propertyUrl": "obo:RO_0002538",
+      "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002538",
       "dc:description": "The ISO event end time",
       "datatype": {
           "base": "time",
