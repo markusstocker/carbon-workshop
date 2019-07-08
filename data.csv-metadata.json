@@ -38,7 +38,7 @@
       "titles": "",  
       "virtual": true,
       "aboutUrl": "http://example.org/about/{date}",
-      "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "propertyUrl": "rdf:type",
       "valueUrl": "http://purl.obolibrary.org/obo/ENVO_01001372"
     }]
   }
