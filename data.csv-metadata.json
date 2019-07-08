@@ -37,6 +37,7 @@
           },
           "valueUrl": "http://avaa.tdata.fi/class/{class}"
         },{
+          "name": "type",
           "virtual": true,
           "propertyUrl": "rdf:type",
           "valueUrl": "http://purl.obolibrary.org/obo/ENVO_01001372"
