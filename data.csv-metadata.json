@@ -2,44 +2,44 @@
     "@context": "http://www.w3.org/ns/csvw",
     "url": "data.csv",
     "tableSchema": {
-    "columns": [{
-      "titles": "date",
-      "propertyUrl": "http://purl.org/dc/elements/1.1/date",
-      "dc:description": "The ISO date at which an event occurred",
-      "datatype": {
-          "base": "date",
-          "format": "yyyy-MM-dd"
-      }
-    },{
-      "titles": "start",
-      "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002537",
-      "dc:description": "The ISO event start time",
-      "datatype": {
-          "base": "time",
-          "format": "HH:mm"
-      }
-    },{
-      "titles": "end",
-      "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002538",
-      "dc:description": "The ISO event end time",
-      "datatype": {
-          "base": "time",
-          "format": "HH:mm"
-      }
-    },{
-      "titles": "class",
-      "dc:description": "The event classification according to the dal Maso et al. scheme",
-      "datatype": {
-          "base": "string",
-          "format": "Ia|Ib|II"
-      },
-      "valueUrl": "http://example.org/class/{class}"
-    },{
-      "titles": "",  
-      "virtual": true,
-      "aboutUrl": "http://example.org/about/{date}",
-      "propertyUrl": "rdf:type",
-      "valueUrl": "http://purl.obolibrary.org/obo/ENVO_01001372"
-    }]
+        "aboutUrl": "http://example.org/about/{date}",
+        "columns": [{
+          "titles": "date",
+          "propertyUrl": "http://purl.org/dc/elements/1.1/date",
+          "dc:description": "The ISO date at which an event occurred",
+          "datatype": {
+              "base": "date",
+              "format": "yyyy-MM-dd"
+          }
+        },{
+          "titles": "start",
+          "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002537",
+          "dc:description": "The ISO event start time",
+          "datatype": {
+              "base": "time",
+              "format": "HH:mm"
+          }
+        },{
+          "titles": "end",
+          "propertyUrl": "http://purl.obolibrary.org/obo/RO_0002538",
+          "dc:description": "The ISO event end time",
+          "datatype": {
+              "base": "time",
+              "format": "HH:mm"
+          }
+        },{
+          "titles": "class",
+          "dc:description": "The event classification according to the dal Maso et al. scheme",
+          "datatype": {
+              "base": "string",
+              "format": "Ia|Ib|II"
+          },
+          "valueUrl": "http://example.org/class/{class}"
+        },{
+          "titles": "",  
+          "virtual": true,
+          "propertyUrl": "rdf:type",
+          "valueUrl": "http://purl.obolibrary.org/obo/ENVO_01001372"
+        }]
   }
 }
