@@ -37,6 +37,7 @@
     },{
       "titles": "",  
       "virtual": true,
+      "aboutUrl": "http://example.org/about/{date}",
       "propertyUrl": "rdf:type",
       "valueUrl": "obo:ENVO_01001372"
     }]
